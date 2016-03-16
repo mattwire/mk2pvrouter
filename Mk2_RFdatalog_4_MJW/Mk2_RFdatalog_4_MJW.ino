@@ -318,7 +318,7 @@ const float voltageCal = 1.0;
 const byte noOfDigitLocations = 4;
 const byte noOfPossibleCharacters = 22;
 #define MAX_DISPLAY_TIME_COUNT 10// no of processing loops between display updates
-#define DISPLAY_SHUTDOWN_IN_HOURS 10 // auto-reset after this period of inactivity
+#define DISPLAY_SHUTDOWN_IN_HOURS 8 // auto-reset after this period of inactivity
 // #define DISPLAY_SHUTDOWN_IN_HOURS 0.01 // for testing that the display clears after 36 seconds
 
 //  The two versions of the hardware require different logic.
